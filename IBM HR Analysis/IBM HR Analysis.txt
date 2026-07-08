@@ -1,0 +1,24 @@
+Step by Step SQL solution
+1.	Created a new database in Postgress(hr_analysis)
+2.	Created a new table(hr_employees) using queries.
+3.	Imported the csv file into the table
+4.	Checked if the table imported right
+5.	Checked the type of each column
+6.	Changed column JobLevel and JobSatisfaction to integer
+7.	Checked if both columns above are in range
+Questions.
+1.	Does job satisfaction affect attrition rate?
+	The least job satisfaction(1) has the highest average attrition rate(22.84%), while the highest job satisfaction(4)
+	has the lowest attrition rate(11.33%). This means, employees that were least satisfied by the job left the most.
+2.	How does job level affect attrition?
+	Junior employee level(1) have the highest attrition rate(26.34%), followed by mid-level(3) with 14.68% and Level 4 employee with the lowest rate(4.72%)
+3.	How many attrition?
+	237 employees out of 1470(16.12%) employees left.
+4.	Attrition by department
+	Research & Develpoment = 133
+	Sales = 92
+	Human Resources = 12
+5.	Attrition by Over time
+	Employees who work overtime(416 0ut 0f 1470) left more(127 left),30.53%. Overtime may be a pressure factor
+6.	Attrition by monthly income
+	Lowest paid employees(< 3000) have the highest attirition rate(113 employees with 28.61%) while highest paid(>6000) have the lowest attrition (58 employees, 10.43%)
