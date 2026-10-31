@@ -22,6 +22,7 @@ The analysis was conducted using data queries and business intelligence techniqu
 - PostgreSQL
 - Microsoft Excel
 - Power Query
+- Microsoft Power BI
 
 ---
 
@@ -121,7 +122,8 @@ The analysis was conducted using data visualization and business intelligence te
 
 ## Tools Used
 
-- Tableau
+- Microsoft Power BI
+- PostgreSQL
 - Microsoft Excel
 - Power Query
 
@@ -138,11 +140,10 @@ The analysis was conducted using data visualization and business intelligence te
 ## Key Performance Indicators (KPIs)
 
 - Total Employees
-- Attrition Count
+- Average Monthly Income
 - Attrition Rate
 - Active Employees
-- Average Age
-- Average Monthly Income
+
 
 ---
 
@@ -155,11 +156,8 @@ The dashboard includes analyses of:
 - Attrition by Salary Band
 - Attrition by Job Level
 - Attrition by Overtime Status
-- Attrition by Gender
-- Attrition by Age Group
-- Attrition by Business Travel
-- Monthly Income Analysis
-- Job Satisfaction Analysis
+- Attrition rate by Years At Company
+- Total Employees by Department
 
 ---
 
